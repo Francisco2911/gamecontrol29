@@ -1,0 +1,63 @@
+<HTML>
+  <HEAD>
+   <TITLE>GC>Regístrate</TITLE> 
+   <LINK rel="icon" href="Paginas\Imagenes\Logo\logofinal_EnB_icon.ico">
+   <script src='https://www.google.com/recaptcha/api.js'></script>
+  </HEAD>
+
+  <BODY background="Paginas\Imagenes\Fondos\Fondo5F.jpg" style="background-position:center; background-repeat: no-repeat; background-attachment: fixed" text="white">
+    <CENTER>
+      
+	<img src="Paginas\Imagenes\Logo\banda.png">
+	<br>
+        <A HREF="index.html"><img src="Paginas\BotonesMenu\bInicio.png">
+        <A HREF="JuegosTop.html"><img src="Paginas\BotonesMenu\bTop.png">
+        <A HREF="Estrenos.html"><img src="Paginas\BotonesMenu\bEstrenos.png">
+        <A HREF="NuevosLanzamientos.html"><img src="Paginas\BotonesMenu\bLanzamientos.png">
+        <A HREF="Registrate.html"><img src="Paginas\BotonesMenu\bRegistrateS.png">
+	</A>
+
+	<br>
+	<P1 text:"white">
+	<H1 STYLE="color:FFBD00">REGÍSTRATE AQUÍ:</H1>
+	
+	<div id="after_submit"></div>
+	<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  	<div class="row">
+	<br>
+	
+	<center> <label class="required" for="name">Ingresa tu Nombre:</label> </br> </center>
+
+    	<center><input id="name" class="input" name="name" type="text" value="" size="45"> </br></center>
+    	<span id="name_validation" class="error_message"></span>
+  	</div>
+  	<div class="row">
+	
+	<br>
+
+    	<center><label class="required" for="email">Ingresa tu E-mail:</label> </br> </center>
+   
+    	<center><input id="email" class="input" name="email" type="text" value="" size="45"> </br></center>
+    	<span id="email_validation" class="error_message"></span>
+  	</div>
+  	<div class="row">
+	
+	<br>
+    	
+	<center><label class="required" for="message">Tu Sugerencia o Queja:</label> </br> </center>
+    	<center> <textarea id="message" class="input" name="message" rows="7" cols="45"></textarea> </br> </center>
+    	<span id="message_validation" class="error_message"></span>
+    	</div>
+
+	<br>
+	
+	<center><div class="g-recaptcha" data-sitekey="6Lebqm4UAAAAACfQtiGlKGjjJ0ei1fNtBJF3M5Iv"></div><center>
+
+	<br>
+    	
+	<center><input id="submit_button" type="submit" value="Enviar email" /> </center>
+
+	</form>
+    </CENTER>
+  </BODY>
+</HTML>
